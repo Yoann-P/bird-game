@@ -2,7 +2,7 @@ const canvas = document.getElementById("canvas");
 const ctx = canvas.getContext("2d");
 const img = new Image();
 img.src = "./media/flappy-bird-set.png";
-
+// ce document est pour la branche test de mon github
 // general setting (réglage général)
 
 let gamePlaying = false; // toggle (variable) pour savoir si on joue ou non afin de savoir si on affiche la page d'accueil ou pas
